@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+button {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+#ursaminor {
+  position: fixed;
+  top: -100px;
+  left: 200px;
+}
+#taurus {
+  position: fixed;
+  top: 450px;
+  left: 800px;
+}
+#orion {
+  position: fixed;
+  top: 100px;
+  left: 600px;
+}
+#ursamajor {
+  position: fixed;
+  top: 450px;
+  left: 0px;
+}

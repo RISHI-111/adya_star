@@ -1,0 +1,167 @@
+*{
+	margin:0px;
+	padding: 0px;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+	font-size: 12px;
+	font-family: tahoma, Arial;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+body{
+	background:linear-gradient(135deg, #044f48, #2a7561);
+}
+#mainContainer{
+	width: 260px;
+	height: 300px;
+	margin: 60px auto;
+	border:2px solid transparent;
+	position: relative;
+
+}
+
+
+
+#messages{
+	width: 258px;
+	height: 330px;
+	border-top-left-radius: 14px;
+	margin: 0px auto;
+	padding: 19px 2px;
+	position: relative;
+	background: rgba(0, 0, 0, 0.5);
+	overflow-y: scroll;
+}
+
+
+
+
+
+ img{
+	border:1px solid #563;
+	width: 34px;
+	height: 34px;
+	margin: -9px 0px 0px 5px;
+	border-radius:50%;
+}
+
+
+
+
+#messages  .tex{
+	display: inline-block;
+    background: rgb(15,38,43);
+    border-radius: 6px;
+    padding: 5px 4px;
+    margin-top: 5px;
+    clear: right;
+
+}
+
+
+#userMessage{
+	width: 258px;
+	margin-top: -3px;
+	height: 30px;
+	position: relative;
+	background:rgba(0, 0, 0, 0.5) ;
+
+}
+
+
+
+#userMessage textarea{
+	width: 258px;
+	height: 30px;
+	padding: 5px 63px 5px 5px;
+	margin: 2px 0px;
+	background:rgba(0, 0, 0, 0.5);
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	outline: none;
+	border-style: none;
+	overflow: auto;
+	resize: none;
+}
+
+#userMessage textarea::-webkit-scrollbar-track
+{
+	background: rgba(0, 0, 0, 0.2);;
+}
+#userMessage textarea::-webkit-scrollbar
+{
+	width: 5px;
+	border-top-right-radius: 2px;
+	background-color: rgba(0, 0, 0, 0.0);
+
+}
+
+#userMessage textarea::-webkit-scrollbar-thumb
+{
+	background-color: #ab2929;
+}
+
+
+
+#userMessage button{
+	position: absolute;
+	padding: 4px 10px;
+    right: 6px;
+    top:2px;
+    background-color: #248A52;
+    border-radius: 15px;
+    border:1px solid transparent;		
+}
+
+
+.controle{
+	max-width: 160px;
+	word-wrap: break-word;
+
+}
+
+
+
+#messages::-webkit-scrollbar-track
+{
+	background: rgba(0, 0, 0, 0.2);;
+}
+#messages::-webkit-scrollbar
+{
+	width: 5px;
+	border-top-right-radius: 2px;
+	background-color: rgba(0, 0, 0, 0.0);
+
+}
+
+#messages::-webkit-scrollbar-thumb
+{
+	background-color: #ab2929;
+}
+
+
+
+
+
+
+
+
+
+.show{
+	display: inline-block !important;
+}
+.hide{
+	display: none !important;
+}
+.right{
+	float: right;
+	margin-right: 10px;
+}
+.left{
+	margin-left: 10px;
+	float: left;
+}
+.clear{
+	clear: both;
+}
